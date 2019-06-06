@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2019-06-05 22:29:51.303204 UTC
+2019-06-06 01:03:50.844543 UTC
 
 interface aulahaskell-0.0.0-XMpds6OjaGCGlrWg68CUX:Application [orphan module] 8002
-  interface hash: af2b2efed60f2b6ed5f97ba792524364
+  interface hash: 6b1e3acf4e3655e17a1abad71f117335
   ABI hash: 9eb9395b021f895e9e602dbd2dfab6ff
   export-list hash: 88760f1f9acb48ffaaf15dca9d22339d
   orphan hash: 69fb11262dae83ffce14fbd96767d29f
@@ -379,15 +379,15 @@ import  -/  Foundation 4fed6a6ce02d868e609fda2d87290d7d
   appSettings 1ab9ceacdeac599ac7efaee52d9777eb
   appStatic 627c1675c6e672d8e948384aa159c4d8
   resourcesApp d201639308ba56a084764ccf129bcfaf
-import  -/  Handler.Cliente 1a531395cc51089a29aff752a4ba28b3
+import  -/  Handler.Cliente 011478e29c4e25ee8d04c780dd419c8a
   exports: dfed1e7142b5d09e12e3170a1ef30ea2
   getClienteAlteraR a0441549f9d203e67e84461435f53ad9
   getClientePerfilR 29a2e371ec82df22e75be7ca85447ecb
-  getClienteR 49ad0dc70562c10d9fe484a1fd4a4ac4
+  getClienteR db7cc1084df88c41fbf79f436d1a0921
   getTodosClientesR 80303583ee3684b376e5cb355b3676ac
   postClienteAlteraR 976d73c252579b2d448307e4e87ec888
   postClienteApagarR 76ffcb8d4b2635926c44961e4e55284d
-  postClienteR f065b39279997debbfc669b4788b93a2
+  postClienteR 45b9d0ef18270973c662d242b654c8fb
 import  -/  Handler.Common 77250ed35f4c22c74c5bff6e86e7d7e6
   exports: 1e2f43249f564bf081b0b39344d88d37
   getFaviconR 93a76af9e176a2f3d0f783f0a17cc519
@@ -396,38 +396,38 @@ import  -/  Handler.Devolucao 0015311f77e442fc6a126316a7fe0467
   exports: 392acd0f73c16df0557ad64374569986
   getTodosDevolucaoR 8c270726826bf58d1180a44e2a725044
   postDevolverApagarR ffafa1d00f237e7572508982683fd813
-import  -/  Handler.Emprestimo de0924ec9471e00bc572f7b459482b9a
-  exports: 9afc1c03d997c83220bd017fd9f696af
+import  -/  Handler.Emprestimo 5e50071b626b382431f77ba8cb63d8e9
+  exports: 4b5c867d394224f80dc621b3fa193242
   getEmprestarClienteR 6d174181d29878ab23fbb46ee540013c
   getTodosEmprestimoR 4d3a69ac98842e0c65f9f2031c4b6341
-  postEmprestarClienteR fdf3106aedb0d289cee8925a1de8eb9b
-import  -/  Handler.Funcionario 64f48ccc291b099a9b15d789a6679e20
-  exports: c22f8a2b5a6d2c43f42af16bce765cf0
+  postEmprestarClienteR 797e136f9291f752522df78711fc110e
+import  -/  Handler.Funcionario eaf76753f2d09d37ef0803c1f8576ff3
+  exports: 3814b4a122e542303ff4e21d69be4e6e
   getFuncionarioAlteraR 3a2c54068f7ab0716b3de24b498f9ba3
-  getFuncionarioPerfilR ba35b7dfe3642889dffd0ce0e6720045
-  getFuncionarioR e1e4233d8f1d4410719589b870559675
+  getFuncionarioPerfilR d0c27254b075715244f06101b237f42d
+  getFuncionarioR 297b9be4da38e050f5652a669e392491
   getTodosFuncionariosR 6cee3284ee0afce9e99dfdf686c0ec9b
-  postFuncionarioAlteraR c13a63a387c51548ded1a11d00c162c4
-  postFuncionarioApagarR 84fe7302138243dcbca032296c5dc196
-  postFuncionarioR d01c5e6dc2b432ddec1a74a2a9889ce7
-import  -/  Handler.Home 53c4ac429140f6bc2ea2a1830ac96ba8
+  postFuncionarioAlteraR e92a7b4829542acac5ee91efe0e4572d
+  postFuncionarioApagarR cb947d618f21f366070314b0902c315c
+  postFuncionarioR 313fe560e9de71134cb7d1a07db1d4e3
+import  -/  Handler.Home a0d9327f52f8934eab888d8b38c624b9
   exports: ccf1fd5d13d8ee912cac09a6c456f703
-  getHomeR f3ed6f2e437bd16caab3e264a21348de
-import  -/  Handler.Livro 58e9990a9a5e3dc776b0d8526b41ac68
+  getHomeR ff89481860ec432dd44a33a607693883
+import  -/  Handler.Livro 85ecf9920f1746dc787a411ec7567e4a
   exports: 85585b9d0cbc572440348db96c9f992f
   getLivroAlteraR 42e069512fd686baab78c1fe63eca576
   getLivroPerfilR c86deee904c23de3dd6fb4c858259d9e
-  getLivroR 59ff1f7755c737369cdbbb04216d6179
+  getLivroR 218836cba2286b9ea8dc9707b36bcae9
   getTodosLivrosR d025f3047ea533db80380a80b7af6e22
   postLivroAlteraR 3c33becfd1148052039b716642a1878a
   postLivroApagarR 6fce008cb1e2c3f70d9dc7fbab2941d0
-  postLivroR 10e5cb44db8e4bbcb9ffa2a083da1c45
-import  -/  Handler.Login e1a7b12349eaed458716fe20deb28916
-  exports: 062839076225c0949cdadaa71c63f7ad
-  getAdminR b9d935ca01cb3b333614d956056faff7
-  getLoginR 719c2ea7cb9d73c2625fbfa2106d4a2a
+  postLivroR c47fe08b8dfea5d839f2d95162f4ccc1
+import  -/  Handler.Login 79ff2e634a373bcf9f4e8b0cd510f76f
+  exports: 9ec8ffb82e08c922d107693f56a461a9
+  getAdminR fe167cd1a2103c56756c2544ea012bfb
+  getLoginR 2547fbb184673c99b574fb2d6cface9c
   postLoginR 5db99ecca1f994a127a8788f3613fd9d
-  postLogoutR 0ff054144ed107969a54b32170aa1b44
+  postLogoutR 9a374bfd191267562e65b456eb73ea81
 import  -/  Import 111f3036b077109f08dedea6b6106d4d
   exports: 9ae2287b43e56bc2b5d41732316e3b89
 import  -/  Model 0322a236513b611476018acb9209b978
